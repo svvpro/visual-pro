@@ -1920,7 +1920,7 @@
 
 	/**
 	 * Get the timezone offset as string from a date object (eg '+0530' for UTC+5.5)
-	 * @param {number} tzMinutes if not a number, less than -720 (-1200), or greater than 840 (+1400) this value is returned
+	 * @param {number} tzMinutes if not a number, sass than -720 (-1200), or greater than 840 (+1400) this value is returned
 	 * @param {boolean} iso8601 if true formats in accordance to iso8601 "+12:45"
 	 * @return {string}
 	 */
