@@ -1,4 +1,10 @@
 @extends('layout.base')
 @section('content')
-    <h1>About page</h1>
+    <div class="container fullheight">
+        <div class="row vcenter">
+            <div class="col-md-12 about animated bounceInDown ">
+                {{ $about->content }}
+            </div>
+        </div>
+    </div>
 @stop

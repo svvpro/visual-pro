@@ -53,7 +53,8 @@ return array(
 	 */
 	'menu' => array(
         'users',
-        'menus'
+        'menus',
+        'Settings'=>['settings.about', 'settings.background'],
     ),
 
 	/**
