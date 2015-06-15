@@ -19,6 +19,8 @@
 get('/',['as'=>'index', 'uses'=>'IndexController@index']);
 get('/about',['as'=>'about', 'uses'=>'IndexController@about']);
 get('/contacts',['as'=>'contact', 'uses'=>'IndexController@contact']);
+get('/services',['as'=>'services', 'uses'=>'IndexController@services']);
+get('/team',['as'=>'team', 'uses'=>'IndexController@team']);
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

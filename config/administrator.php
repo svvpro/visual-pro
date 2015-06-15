@@ -54,7 +54,9 @@ return array(
 	'menu' => array(
         'users',
         'menus',
-        'Settings'=>['settings.about', 'settings.background'],
+        'services',
+        'team',
+        'Settings'=>['settings.about', 'settings.services', 'settings.team','settings.background'],
     ),
 
 	/**
